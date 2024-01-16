@@ -37,5 +37,4 @@ if predicted_class[0]==0:
     print('person will die')
 else:
     print('The Person will Survive.')
-
-    st.write(f"Predicted class: {predicted_class[0]}")
+st.write(f"Predicted class: {predicted_class[0]}")
